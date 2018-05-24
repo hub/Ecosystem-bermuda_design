@@ -1,0 +1,264 @@
+@import "../../public/dist/fonts/icons/_wel_icons.scss"
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video 
+  border: 0
+  font-size: 100%
+  font: inherit
+  margin: 0
+  padding: 0
+  vertical-align: baseline
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, section, input, textarea, select, button 
+  display: block
+
+
+ol, ul 
+  list-style: none  
+
+
+blockquote, q 
+  quotes: none
+
+
+blockquote:before, blockquote:after 
+  content: ''
+  content: none
+
+
+q:before, q:after 
+  content: ''
+  content: none
+
+
+table 
+  border-collapse: collapse
+  border-spacing: 0
+
+
+html 
+  height: 100%
+  min-height: 100%
+  min-width: 300px
+
+
+body 
+  overflow: hidden
+  font-family: "AvenirLTStd-Medium"
+
+
+a 
+  outline: none
+  text-decoration: none
+
+
+.flex-box
+  display: flex
+  justify-content: space-between
+  align-items: center
+  box-sizing: border-box
+
+.background-header
+  background: #4b73b3
+  .header-box
+    max-width: 1920px
+    width: 100%
+    margin: 0 auto
+    @extend .flex-box
+    .title
+      max-width: 250px
+      width: 100%
+      padding: 25px 60px 25px 70px
+      box-sizing: border-box
+      font-size: 20px
+      color: #fff
+      text-transform: uppercase
+      font-weight: bold
+      background: #3c5c90
+      text-align: center
+    .user-box
+      max-width: 150px
+      width: 100%
+      @extend .flex-box
+      margin-right: 20px
+      font-size: 14px
+      color: #fff
+      .user-img
+        width: 30px
+        height: 30px
+        background-color: #fff
+        background: url('../img/usr.png')
+        background-size: cover
+        background-position: center center
+        border-radius: 50%
+      .name-user
+        text-align: center 
+        &>p:first-child
+          font-weight: bold
+          text-transform: uppercase
+
+.dashboard-box
+  max-width: 1920px
+  width: 100%
+  background: #ebf0f7
+  display: flex
+  .sidebar
+    max-width: 250px
+    width: 100%
+    height: calc(100vh - 100px)
+    border-right: 1px solid #dfdfdf
+    padding-left: 20px
+    box-sizing: border-box
+    .item-li
+      display: flex
+      align-items: center
+      font-size: 14px
+      color: #333333
+      span 
+        font-size: 12px
+        width: 20px
+      p 
+        margin-left: 20px
+    .menu 
+      li 
+        margin-top: 40px
+  .content
+    max-width: 1660px
+    width: 100%
+    overflow-y: scroll
+    height: calc(100vh - 100px)
+    padding: 40px 0px
+    box-sizing: border-box
+    .add-profile-box
+      max-width: 1090px
+      width: 100%
+      margin: 0 auto
+      @extend .flex-box
+      flex-wrap: wrap
+      .box-profile
+        position: relative
+        width: 290px
+        height: 165px
+        @extend .flex-box
+        flex-direction: column
+        padding: 10px 25px
+        background: #ffffff
+        border-radius: 8px
+        box-shadow: 0px 0px 10px -1px rgba(129, 129, 129, .75)
+        margin-bottom: 50px
+        .profile-title
+          position: relative
+          text-align: center
+          font-size: 18px
+          font-weight: bold
+          color: #333333
+          margin-top: 40px
+          font-family: "AvenirLTStd-Black"
+          &:after
+            content: ""
+            position: absolute
+            background: #4a73b3
+            height: 3px
+            width: 54px
+            left: 0
+            right: 0
+            margin: 0 auto
+            bottom: -8px
+        .profile-hint
+          font-size: 18px
+          text-align: center
+          color: #818181
+          font-family: "AvenirLTStd-Roman"
+        .img-edit 
+          position: absolute
+          height: 50px
+          left: -10px
+          top: -10px
+          cursor: pointer
+      .box-profile.plus
+        justify-content: space-around
+        padding: 10px 0
+        img 
+          height: 70px
+          margin: 0 auto
+          display: block
+          cursor: pointer
+        p 
+          font-size: 18px
+          color: #4a73b3
+          text-align: center
+
+
+// checked-controls
+.welkit-choice 
+    display: inline-flex
+    position: relative
+    cursor: pointer
+    font-size: 14px
+    -webkit-user-select: none
+    -moz-user-select: none
+    -ms-user-select: none
+    user-select: none
+    align-items: center
+
+.welkit-choice input 
+    position: absolute
+    opacity: 0
+    cursor: pointer
+
+.check 
+    display: flex
+    align-items: center
+    justify-content: center
+    position: relative
+    top: -2px
+    left: 0
+    height: 16px
+    width: 16px
+    background-color: #fff
+    border: 1px solid #ccc
+    border-radius: 4px
+    margin-right: 5px
+    box-sizing: border-box
+
+.check:after 
+    content: ""
+    position: absolute
+    display: none
+
+.welkit-choice input:checked ~ .check.checkbox:after 
+    display: block
+
+.welkit-choice .check.checkbox:after 
+    left: 4px
+    top: 1px
+    width: 4px
+    height: 8px
+    border: solid #0070D2
+    border-width: 0 2px 2px 0
+    -webkit-transform: rotate(45deg)
+    -ms-transform: rotate(45deg)
+    transform: rotate(45deg)
+
+
+.check.radio
+    border-radius: 50%
+
+.welkit-choice input:checked ~ .check.radio:after 
+    display: block
+
+.welkit-choice .check.radio:after 
+  top: 4px
+  left: 4px
+  width: 6px
+  height: 6px
+  background: #0070D2
+  border-radius: 50%
+
+.venAmount 
+ color: #5981b6
+ font-family: "AvenirLTStd-Medium"
+
+
+
+@import "component/applications.sass"

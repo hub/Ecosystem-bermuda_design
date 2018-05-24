@@ -1,0 +1,142 @@
+.form-two-page
+    max-width: 1090px
+    width: 100%
+    margin: 0 auto
+    .navigation-two-page
+        width: 100%
+        background: #fff
+        border-radius: 8px
+        box-shadow: 0px 0px 10px -1px rgba(129, 129, 129, 0.75)
+        @extend .flex-box
+        a   
+            position: relative
+            max-width: 560px
+            width: 100%
+            padding: 20px 5px 24px 5px
+            box-sizing: border-box
+            text-align: center
+            font-size: 18px
+            color: #4b73b3
+            border-radius: 8px
+            &:after
+                content: ""
+                position: absolute
+                background: #4a73b3
+                height: 3px
+                width: 100px
+                left: 0
+                right: 0
+                margin: 0 auto
+                bottom: 16px
+        .activ-page-btn
+            background: #4b73b3
+            color: #fff
+            &:after
+                background: #fff 
+
+    .forms-page-one
+        width: 100%
+        background: #fff
+        padding: 30px 150px
+        box-sizing: border-box
+        border-radius: 8px
+        box-shadow: 0px 0px 10px -1px rgba(129, 129, 129, 0.75)
+        margin-top: 20px
+        .input-text
+            display: block
+            width: 100%
+            font-size: 14px
+            color: #333333
+            margin-bottom: 22px
+            input
+                width: 100%
+                background: #ededed
+                border-radius: 8px
+                height: 36px
+                outline: none 
+                border: none
+                box-sizing: border-box
+                padding-left: 10px
+                font-size: 14px
+                margin-top: 10px
+        .block-file
+            position: relative
+            width: 100%
+            background: #ededed
+            border-radius: 8px
+            height: 36px
+            box-sizing: border-box
+            font-size: 14px
+            padding-left: 10px
+            color: #7c7c7c
+            @extend .flex-box
+            overflow: hidden
+            .input-file
+                position: absolute
+                right: 0px
+                width: 50px
+                opacity: 0
+                cursor: pointer
+            .add-file-icn
+                width: 50px
+                height: 100%
+                @extend .flex-box
+                border-left: 1px solid #dfdfdf
+                img 
+                    width: 18px
+                    margin: 0 auto
+                    cursor: pointer
+        .form-line-border
+            background: #dfdfdf
+            height: 2px
+            width: 150px
+            margin: 22px auto
+        .button-box
+            max-width: 500px
+            width: 100%
+            margin: 0 auto
+            @extend .flex-box
+            margin-top: 36px
+            a 
+                max-width: 240px
+                width: 100%
+                text-align: center
+                padding: 12px
+                box-sizing: border-box
+                font-size: 14px
+                text-transform: uppercase
+                border-radius: 8px
+            .btn-submit
+                border: none
+                background: #4b73b3
+                color: #fff
+            .btn-cancel
+                background: #fff
+                border: 1px solid #4b73b3
+                color: #4b73b3
+
+.title-radio
+    font-size: 14px
+.radiobuttun
+    margin-top: 24px
+    .radio-text
+        max-width: 672px
+        width: 100%
+        font-size: 14px
+        color: #7c7c7c
+        margin-left: 22px
+
+.form-two-page .forms-page-one .input-text.non-m-bot
+    margin-bottom: 0
+
+.div-link
+    width: 100%
+    margin-bottom: 22px
+    display: flex
+    padding-top: 5px
+    justify-content: flex-end
+    .link-form
+        font-size: 12px
+        color: #4a73b3
+        text-decoration: underline
+        font-weight: bold

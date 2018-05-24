@@ -1,0 +1,62 @@
+@font-face {
+	font-family: "wel_icons";
+	src: url('../fonts/icons/wel_icons.eot');
+	src: url('../fonts/icons/wel_icons.eot?#iefix') format('eot'),
+		url('../fonts/icons/wel_icons.woff2') format('woff2'),
+		url('../fonts/icons/wel_icons.woff') format('woff'),
+		url('../fonts/icons/wel_icons.ttf') format('truetype'),
+		url('../fonts/icons/wel_icons.svg#wel_icons') format('svg');
+}
+
+@mixin icon-styles {
+	font-family: "wel_icons";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	// speak: none; // only necessary if not using the private unicode range (firstGlyph option)
+	text-decoration: none;
+	text-transform: none;
+}
+
+%icon {
+	@include icon-styles;
+}
+
+@function icon-char($filename) {
+	$char: "";
+
+	@if $filename == VectorSmartObjec-1 {
+		$char: "\E001";
+	}
+	@if $filename == VectorSmartObjec-2 {
+		$char: "\E002";
+	}
+	@if $filename == VectorSmartObjec-3 {
+		$char: "\E003";
+	}
+
+	@return $char;
+}
+
+@mixin icon($filename, $insert: before, $extend: true) {
+	&:#{$insert} {
+		@if $extend {
+			@extend %icon;
+		} @else {
+			@include icon-styles;
+		}
+		content: icon-char($filename);
+	}
+}
+
+.icon-VectorSmartObjec-1 {
+	@include icon(VectorSmartObjec-1);
+}
+.icon-VectorSmartObjec-2 {
+	@include icon(VectorSmartObjec-2);
+}
+.icon-VectorSmartObjec-3 {
+	@include icon(VectorSmartObjec-3);
+}
