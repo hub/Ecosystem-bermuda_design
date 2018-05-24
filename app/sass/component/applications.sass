@@ -43,6 +43,7 @@
         box-shadow: 0px 0px 10px -1px rgba(129, 129, 129, 0.75)
         margin-top: 20px
         .input-text
+            position: relative
             display: block
             width: 100%
             font-size: 14px
@@ -59,6 +60,17 @@
                 padding-left: 10px
                 font-size: 14px
                 margin-top: 10px
+                &:focus 
+                    border: #4b73b3 solid 1px
+        .title-input
+            margin-left: 10px
+            display: block
+        .hint-input
+            font-size: 12px
+            color: #a3a3a3
+            margin-left: 10px
+            margin-top: 5px
+            display: block
         .block-file
             position: relative
             width: 100%
@@ -116,6 +128,36 @@
                 border: 1px solid #4b73b3
                 color: #4b73b3
 
+.abs-block
+    display: none
+    position: absolute
+    box-shadow: 0px 0px 10px -1px rgba(129, 129, 129, 0.75)
+    border-radius: 8px
+    background: #fff
+    padding: 15px
+    box-sizing: border-box
+    z-index: 9
+    max-width: 336px
+    width: 100%
+    font-size: 12px
+    top: -48px
+    right: -100px
+    &:after 
+        content: ""
+        position: absolute
+        left: -5px
+        top: 42%
+        width: 15px
+        height: 15px
+        background: #fff
+        transform: rotate(225deg)
+        box-shadow: 2px -2px 1px 0px #E0E5EE
+.abs-block.par-two
+    top: -45px
+    right: -42px
+    &:after
+        top: 14%
+
 .title-radio
     font-size: 14px
 .radiobuttun
@@ -160,3 +202,98 @@
   font-size: 14px
   text-transform: uppercase
   border-radius: 8px
+
+.text-inp-one
+    margin-left: 10px
+    display: block
+    font-size: 14px
+    color: #333333
+    margin-bottom: 10px
+
+.date
+    width: 100%
+    @extend .flex-box
+    font-size: 14px
+    color: #333333
+    margin-bottom: 22px
+    div 
+        position: relative
+        max-width: 360px
+        width: 100%
+        &:after 
+            content: ''
+            background: #dfdfdf
+            width: 2px
+            height: 36px
+            position: absolute
+            right: 42px
+            bottom: 0px
+        .inp-date
+            max-width: 360px
+            width: 100%
+            background: #ededed
+            border-radius: 8px
+            height: 36px
+            border: none
+            font-size: 14px
+            box-sizing: border-box
+            padding-left: 10px
+            outline: none
+            &:focus
+                border: #4b73b3 solid 1px
+        p 
+            margin-left: 10px
+            margin-bottom: 10px
+        img 
+            position: absolute
+            height: 15px
+            right: 15px
+            bottom: 10px
+
+//date 
+.ui-widget-header 
+    border: none
+    background: #fff
+    color: #333
+    font-weight: normal
+    font-size: 14px
+
+
+.ui-datepicker th
+    font-size: 12px
+    color: #5d5d5d
+    font-weight: normal
+
+.ui-widget.ui-widget-content
+    border: none
+    box-shadow: 0px 0px 10px -1px rgba(129, 129, 129, 0.75) 
+    border-radius: 8px 
+
+.ui-datepicker td span, .ui-datepicker td a
+    border: 1px solid #4b73b3 !important
+    background: #fff !important
+    font-weight: normal
+    color: #454545
+    text-align: center
+    border-radius: 50%
+    width: 20px
+    height: 20px
+    font-size: 12px
+    display: flex
+    align-items: center
+    justify-content: center
+    margin: 5px
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight
+    background: #4b73b3 !important
+    color: #fff !important
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover
+    background: green !important
+
+.icn-que
+    height: 14px
+    margin-left: 8px
+    margin-bottom: -3px
+    cursor: pointer
+

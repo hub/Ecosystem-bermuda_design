@@ -1,0 +1,53 @@
+.step-navigation
+    width: 100%
+    max-width: 1060px
+    background: #fff
+    @extend .flex-box
+    a 
+        position: relative
+        max-width: 160px
+        width: 100%
+        padding: 24px 10px 24px 25px
+        background: #fff
+        text-align: center
+        font-size: 18px
+        &:after 
+            content: ""
+            position: absolute
+            right: -22px
+            top: 7px
+            width: 56px
+            height: 56px
+            background: #fff
+            -webkit-transform: rotate(45deg)
+            -ms-transform: rotate(45deg)
+            transform: rotate(45deg)
+            -webkit-box-shadow: 2px -2px 1px 0px #E0E5EE
+            box-shadow: 2px -2px 1px 0px #E0E5EE
+            -webkit-border-radius: 6px
+            border-radius: 10px
+            z-index: 2
+
+.title-step
+    font-size: 18px
+    color: #4b73b3
+    margin-left: 10px
+    margin-bottom: 25px
+
+.inp-categori
+    color: #333333
+    font-size: 18px
+    margin-left: 10px
+    margin-bottom: 25px
+    img 
+        height: 14px
+        margin-left: 8px
+        margin-bottom: -3px
+        cursor: pointer
+
+.date .aft-non:after 
+    content: none
+
+.asd-hint
+    position: relative
+    width: 240px
