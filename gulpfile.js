@@ -101,7 +101,7 @@ gulp.task('css-libs', function() {
 		.pipe(gulp.dest('public/dist/css')); // destination app/css
 });
 
-gulp.task('watch', ['browser-sync', 'html:build', 'css-libs'], function() {
+gulp.task('watch', ['browser-sync', 'html:build'/* , 'css-libs' */], function() {
 	gulp.watch('app/sass/**/*', ['sass', 'media']); // watching *.sass files
 	gulp.watch('public/demo/*',  ['html:build'], browserSync.reload); // watching *.html file
 });
