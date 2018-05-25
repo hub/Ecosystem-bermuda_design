@@ -50,4 +50,30 @@
 
 .asd-hint
     position: relative
-    width: 240px
+    max-width: 550px
+    width: 100%
+
+.asd-hint .abs-block.par-two
+    right: 8px
+    top: -22px
+
+.asd-hint .abs-block
+    right: -40px
+    top: -40px
+
+.bnt-navigation
+    @extend .flex-box
+    a 
+        max-width: 140px
+        width: 100%
+        padding: 12px
+        box-sizing: border-box
+        font-size: 14px
+        color: #a3a3a3
+        text-transform: uppercase
+        @extend .flex-box
+        border: 1px solid #a3a3a3
+        border-radius: 8px
+        justify-content: space-around
+        img 
+            height: 10px
