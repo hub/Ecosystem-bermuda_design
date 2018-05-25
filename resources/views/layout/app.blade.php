@@ -32,20 +32,62 @@
                 <ul class="menu">
                     <li>
                         <a class="item-li" href="#">
+                            <p>Home</p>
                             <span class="icon-VectorSmartObjec-1"></span>
-                            <p>Profiles</p>
                         </a>
                     </li>
                     <li>
                         <a class="item-li" href="#">
+                            <p>Membership</p>
                             <span class="icon-VectorSmartObjec-2"></span>
-                            <p>Applications</p>
                         </a>
                     </li>
                     <li>
                         <a class="item-li" href="#">
+                            <p>Markets</p>
                             <span class="icon-VectorSmartObjec-3"></span>
-                            <p>Library of Contract T&C</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="item-li" href="#">
+                            <p>About</p>
+                            <span class="icon-VectorSmartObjec-1"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="item-li" href="#">
+                            <p>Contact</p>
+                            <span class="icon-VectorSmartObjec-2"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="item-li" href="#">
+                            <p>Sprint</p>
+                            <span class="icon-VectorSmartObjec-3"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="item-li" href="#">
+                            <p>Profile</p>
+                            <span class="icon-VectorSmartObjec-3"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="item-li" href="#">
+                            <p>Applications</p>
+                            <span class="icon-VectorSmartObjec-1"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="item-li" href="#">
+                            <p>Library of Contract T & C</p>
+                            <span class="icon-VectorSmartObjec-2"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="item-li" href="#">
+                            <p>Log Out</p>
+                            <span class="icon-VectorSmartObjec-3"></span>
                         </a>
                     </li>
                 </ul>
@@ -58,6 +100,7 @@
 
         <script src="./public/dist/js/jquery.min.js"></script>
         <script src="./public/dist/js/jquery-ui.min.js"></script>
+        <script src="./public/dist/js/jquery.steps.js"></script>
         <script src="./public/dist/js/comon.js"></script>
     </body>
 </html>

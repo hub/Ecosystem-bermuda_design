@@ -63,6 +63,7 @@
 
 .bnt-navigation
     @extend .flex-box
+    margin-top: 50px
     a 
         max-width: 140px
         width: 100%
@@ -77,3 +78,66 @@
         justify-content: space-around
         img 
             height: 10px
+
+.radiobuttun.inp-proc
+    max-width: 260px
+    width: 100%
+    display: flex
+    justify-content: space-between
+    align-content: center
+    .inp-checbox
+        width: 100%
+        background: #ededed
+        border-radius: 8px
+        height: 36px
+        outline: none
+        border: none
+        box-sizing: border-box
+        padding-left: 10px
+        font-size: 14px
+        max-width: 140px
+        &:focus 
+            border: #4b73b3 solid 1px
+    
+.abs-block.par-three
+    right: -108px
+    top: -12px
+    &:after 
+        left: -6px
+        top: 37%
+
+.btn-upload
+    border: none
+    background: #4b73b3
+    color: #fff
+    padding: 12px 25px
+    box-sizing: border-box
+    font-size: 14px
+    text-transform: uppercase
+    border-radius: 8px
+    margin-top: 20px
+
+.step-submit
+    max-width: 140px
+    width: 100%
+    padding: 12px
+    -webkit-box-sizing: border-box
+    box-sizing: border-box
+    font-size: 14px
+    color: #fff
+    text-transform: uppercase
+    border: 1px solid #4b73b3
+    -webkit-border-radius: 8px
+    border-radius: 8px
+    background: #4b73b3
+
+.steps.clearfix, .step-h, .actions.clearfix
+    display: none
+
+.step-navigation .active-step
+    background: #4b73b3
+    color: #fff
+    z-index: 9
+    &:after
+        background: #4b73b3
+        box-shadow: none

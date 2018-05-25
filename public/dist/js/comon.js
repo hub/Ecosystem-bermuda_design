@@ -4,19 +4,6 @@ $(document).ready(function(){
         $( "#datepicker-two" ).datepicker();
     });
 
-
-
-    // $( ".icn-que" ).each( (i, item, next)=> {
-    //     $(item).hover(
-    //         function() {
-    //           $( '.abs-block' ).fadeIn();
-    //         }, function() {
-    //           $( '.abs-block' ).fadeOut();
-    //         }
-    //     );
-    // });
-
-
     $( ".icn-que" ).hover(function() {
         var a = $(this).closest('.input-text').find('.abs-block');
         a.fadeIn();
@@ -28,6 +15,36 @@ $(document).ready(function(){
         var b = $(this).closest('.asd-hint').find('.abs-block');
         b.fadeOut();
     })
+
+
+
+    //step
+
+    $(".form-steps").steps({
+        headerTag: "h3",
+        bodyTag: "section",
+        transitionEffect: "fade",
+         onStepChanged: (event, currentIndex, newIndex) =>
+            {       
+
+
+            },
+    });
+
+    $('.next').each( (i, item, next) => {
+       $(item).click(() => {
+            $(".form-steps").steps("next")
+        })
+    })
+
+    $('.previous').each( (i, item, next) => {
+       $(item).click(() => {
+            $(".form-steps").steps("previous")
+        })
+    })
+
+
+    
     
 
 });
