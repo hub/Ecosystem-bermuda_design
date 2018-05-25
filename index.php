@@ -4,10 +4,10 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 if (!defined('H')) {
-  define('H', $_SERVER ['DOCUMENT_ROOT'] . '/..'); // корневая директория сайта
+  define('H', $_SERVER ['DOCUMENT_ROOT'] . ''); // корневая директория сайта
 }
 
-require_once '../vendor/autoload.php';
+require_once 'vendor/autoload.php';
 use Jenssegers\Blade\Blade;
 
 function view($template, $params = [], $view = true)

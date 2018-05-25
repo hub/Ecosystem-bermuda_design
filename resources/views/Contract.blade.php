@@ -15,7 +15,7 @@
         <form action="">
             <p class="title-step">Step 1: The Proposed Company</p>
             <div class="asd-hint">
-                <p class="inp-categori">Name of Company <img class="icn-que" src="../dist/img/question.svg" alt=""></p>
+                <p class="inp-categori">Name of Company <img class="icn-que" src="/public/dist/img/question.svg" alt=""></p>
                 <div class="abs-block par-two">
                     Please give at least one alternative name.
                     <br>
@@ -39,7 +39,7 @@
                 <input type="text">
             </label>
             <div class="asd-hint">
-                <p class="inp-categori">Purpose of the Company <img class="icn-que" src="../dist/img/question.svg" alt=""></p>
+                <p class="inp-categori">Purpose of the Company <img class="icn-que" src="/public/dist/img/question.svg" alt=""></p>
                 <div class="abs-block">
                     Certain types of companies (including insurance and investment fund companies) will require the submission of additional information and our incorporations department or an attorney will be pleased to advise accordingly.
                 </div>
@@ -63,8 +63,8 @@
                 </div>
             </div>
             <div class="bnt-navigation">
-                <a href="#"><img src="dist/img/arrow-left.svg" alt=""> PREVIOUS</a>
-                <a href="#">NEXT <img src="dist/img/arrow-right.svg" alt=""></a>
+                <a href="#"><img src="/public/dist/img/arrow-left.svg" alt=""> PREVIOUS</a>
+                <a href="#">NEXT <img src="/public/dist/img/arrow-right.svg" alt=""></a>
             </div>
         </form>
     </div>

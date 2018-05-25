@@ -25,7 +25,7 @@
                 </label>
                 <div class="form-line-border"></div>
                 <label class="input-text">
-                    <span class="title-input">The minimum amount of money equivalent (in Bermuda dollars) of digital assets <img class="icn-que" src="../dist/img/question.svg" alt=""></span>
+                    <span class="title-input">The minimum amount of money equivalent (in Bermuda dollars) of digital assets <img class="icn-que" src="/public/dist/img/question.svg" alt=""></span>
                     <input type="text">
                     <div class="abs-block">
                         The Initial Coin Offering is intended to raise in the opinion of the promoters or directors must be raised;
@@ -46,12 +46,12 @@
                 <div class="date">
                     <div>
                         <p>Opening of the offering of digital assets</p>
-                        <img src="../dist/img/date.svg" alt="">
+                        <img src="/public/dist/img/date.svg" alt="">
                         <input class="inp-date" type="text" id="datepicker-one">
                     </div>
                     <div>
                         <p>Closing of the offering of digital assets</p>
-                        <img src="../dist/img/date.svg" alt="">
+                        <img src="/public/dist/img/date.svg" alt="">
                         <input class="inp-date" type="text" id="datepicker-two">
                     </div>
                 </div>
@@ -61,7 +61,7 @@
                 </label>
                 <div class="form-line-border"></div>
                 <label class="input-text">
-                    <span class="title-input">The general Initial Coin Offering risk warning referred to in section 34F <img class="icn-que" src="../dist/img/question.svg" alt=""></span>
+                    <span class="title-input">The general Initial Coin Offering risk warning referred to in section 34F <img class="icn-que" src="/public/dist/img/question.svg" alt=""></span>
                     <input type="text">
                     <div class="abs-block par-two">
                         34F: General Initial Coin Offering risk warning:
@@ -87,7 +87,7 @@
                     Choose file
                     <input class="input-file" type="file">
                     <span class="add-file-icn">
-                        <img src="../dist/img/VectorSmartObjec-3.svg" alt="">
+                        <img src="/public/dist/img/VectorSmartObjec-3.svg" alt="">
                     </span>
                 </div>
                 <div class="form-line-border"></div>
@@ -101,7 +101,7 @@
                     Choose file
                     <input class="input-file" type="file">
                     <span class="add-file-icn">
-                        <img src="../dist/img/VectorSmartObjec-3.svg" alt="">
+                        <img src="/public/dist/img/VectorSmartObjec-3.svg" alt="">
                     </span>
                 </div>
                 <div class="form-line-border"></div>
@@ -114,7 +114,7 @@
                     Choose file
                     <input class="input-file" type="file">
                     <span class="add-file-icn">
-                        <img src="../dist/img/VectorSmartObjec-3.svg" alt="">
+                        <img src="/public/dist/img/VectorSmartObjec-3.svg" alt="">
                     </span>
                 </div>
                 <div class="button-box">

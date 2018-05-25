@@ -27,7 +27,7 @@
                 Choose file
                 <input class="input-file" type="file">
                 <span class="add-file-icn">
-                    <img src="../dist/img/VectorSmartObjec-3.svg" alt="">
+                    <img src="/public/dist/img/VectorSmartObjec-3.svg" alt="">
                 </span>
             </div>
             
@@ -41,7 +41,7 @@
                 Choose file
                 <input class="input-file" type="file">
                 <span class="add-file-icn">
-                    <img src="../dist/img/VectorSmartObjec-3.svg" alt="">
+                    <img src="/public/dist/img/VectorSmartObjec-3.svg" alt="">
                 </span>
             </div>
             
@@ -55,7 +55,7 @@
                 Choose file
                 <input class="input-file" type="file">
                 <span class="add-file-icn">
-                    <img src="../dist/img/VectorSmartObjec-3.svg" alt="">
+                    <img src="/public/dist/img/VectorSmartObjec-3.svg" alt="">
                 </span>
             </div>
             
@@ -84,7 +84,7 @@
                 Choose file
                 <input class="input-file" type="file">
                 <span class="add-file-icn">
-                    <img src="../dist/img/VectorSmartObjec-3.svg" alt="">
+                    <img src="/public/dist/img/VectorSmartObjec-3.svg" alt="">
                 </span>
             </div>
             <div class="button-box">

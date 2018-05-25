@@ -6,10 +6,10 @@
     <title>Bermuda_Dashboard</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
-    <link rel="stylesheet" href="../dist/css/jquery-ui.min.css">
-    <link rel="stylesheet" href="../dist/css/style.css">
-    <link rel="stylesheet" href="../dist/css/media.css">
-    <link rel="stylesheet" href="../dist/font/font.css">
+    <link rel="stylesheet" href="./public/dist/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="./public/dist/css/style.css">
+    <link rel="stylesheet" href="./public/dist/css/media.css">
+    <link rel="stylesheet" href="./public/dist/font/font.css">
 </head>
     <body>
         
@@ -56,8 +56,8 @@
         </div>
 
 
-        <script src="../dist/js/jquery.min.js"></script>
-        <script src="../dist/js/jquery-ui.min.js"></script>
-        <script src="../dist/js/comon.js"></script>
+        <script src="./public/dist/js/jquery.min.js"></script>
+        <script src="./public/dist/js/jquery-ui.min.js"></script>
+        <script src="./public/dist/js/comon.js"></script>
     </body>
 </html>
