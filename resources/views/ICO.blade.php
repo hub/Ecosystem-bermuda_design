@@ -118,7 +118,7 @@
                     </span>
                 </div>
                 <div class="button-box">
-                    <a class="btn-submit" href="">SUBMIT</a>
+                    <input class="btn-submit btn-submit-input" type="submit" value=" Submit ">
                     <a class="btn-cancel" href="">CANCEL</a>
                 </div>
             </form>

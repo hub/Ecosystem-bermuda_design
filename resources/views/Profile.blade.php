@@ -3,7 +3,7 @@
 @section('content')
   <div class="add-profile-box">
     <div class="box-profile plus">
-        <img src="../dist/img/VectorSmartObjec-1.svg" alt="">
+        <a href="#"><img src="../dist/img/VectorSmartObjec-1.svg" alt=""></a>
         <p>Add New Profile</p>
     </div>
     @for ($i = 0; $i < 8; $i++)
