@@ -80,7 +80,7 @@
                     </li>
                     <li>
                         <a class="item-li" href="#">
-                            <p>Library of Contract T & C</p>
+                            <p>Library of Contract T&C</p>
                             <span class="icon-VectorSmartObjec-9"></span>
                         </a>
                     </li>
