@@ -300,90 +300,125 @@
                 <div class="forms-page-one">
                     <p class="title-step">Step 3: Shares and Capital</p>
                     <p class="inp-categori">For Each Registered Member that is an Individual</p>
-                    <div class="date">
-                        <div class="aft-non">
+                    <div class="select-block">
+                        <div>
                             <p>Amount</p>
-                            <input class="inp-date" type="text">
+                            <input class="inp-sel" type="text">
                         </div>
-                        <div class="aft-non">
+                        <div>
                             <p>Currency</p>
-                            <input class="inp-date" type="text">
+                            <select>
+                                <option value="hide"></option>
+                                <option value="2010">AED</option>
+                                <option value="2011">AUD</option>
+                                <option value="2012">BCH</option>
+                                <option value="2013">BRL</option>
+                                <option value="2014">BTC</option>
+                            </select>
                         </div>
                     </div>
                     <div class="form-line-border"></div>
                     <p class="inp-categori">Par Value per Share (if single class)</p>
-                    <div class="date">
+                    <div class="select-block">
                         <div class="aft-non">
                             <p>Amount</p>
-                            <input class="inp-date" type="text">
+                            <input class="inp-sel" type="text">
                         </div>
                         <div class="aft-non">
                             <p>Currency</p>
-                            <input class="inp-date" type="text">
+                            <select>
+                                <option value="hide"></option>
+                                <option value="2010">AED</option>
+                                <option value="2011">AUD</option>
+                                <option value="2012">BCH</option>
+                                <option value="2013">BRL</option>
+                                <option value="2014">BTC</option>
+                            </select>
                         </div>
                     </div>
                     <div class="form-line-border"></div>
                     <p class="inp-categori">Par Value per Share (if single class)</p>
-                    <div class="date">
+                    <div class="select-block">
                         <div class="aft-non">
                             <p>Amount</p>
-                            <input class="inp-date" type="text">
+                            <input class="inp-sel" type="text">
                         </div>
                         <div class="aft-non">
                             <p>Currency</p>
-                            <input class="inp-date" type="text">
+                            <select>
+                                <option value="hide"></option>
+                                <option value="2010">AED</option>
+                                <option value="2011">AUD</option>
+                                <option value="2012">BCH</option>
+                                <option value="2013">BRL</option>
+                                <option value="2014">BTC</option>
+                            </select>
                         </div>
                     </div>
-                    <div class="date">
+                    <div class="select-block">
                         <div class="aft-non">
                             <p>Par value</p>
-                            <input class="inp-date" type="text">
+                            <input class="inp-sel" type="text">
                         </div>
                         <div class="aft-non">
                             <p># Shares of this class</p>
-                            <input class="inp-date" type="text">
+                            <input class="inp-sel" type="text">
                         </div>
                     </div>
                     <div class="form-line-border"></div>
-                    <div class="date">
+                    <div class="select-block">
                         <div class="aft-non">
                             <p>Amount</p>
-                            <input class="inp-date" type="text">
+                            <input class="inp-sel" type="text">
                         </div>
                         <div class="aft-non">
                             <p>Currency</p>
-                            <input class="inp-date" type="text">
+                            <select>
+                                <option value="hide"></option>
+                                <option value="2010">AED</option>
+                                <option value="2011">AUD</option>
+                                <option value="2012">BCH</option>
+                                <option value="2013">BRL</option>
+                                <option value="2014">BTC</option>
+                            </select>
                         </div>
                     </div>
-                    <div class="date">
+                    <div class="select-block">
                         <div class="aft-non">
                             <p>Par value</p>
-                            <input class="inp-date" type="text">
+                            <input class="inp-sel" type="text">
                         </div>
                         <div class="aft-non">
                             <p># Shares of this class</p>
-                            <input class="inp-date" type="text">
+                            <input class="inp-sel" type="text">
                         </div>
                     </div>
                     <div class="form-line-border"></div>
-                    <div class="date">
+                    <div class="select-block">
                         <div class="aft-non">
                             <p>Amount</p>
-                            <input class="inp-date" type="text">
+                            <input class="inp-sel" type="text">
                         </div>
                         <div class="aft-non">
                             <p>Currency</p>
-                            <input class="inp-date" type="text">
+                            <select>
+                                <option value="hide"></option>
+                                <option value="2010">AED</option>
+                                <option value="2011">AUD</option>
+                                <option value="2012">BCH</option>
+                                <option value="2013">BRL</option>
+                                <option value="2014">BTC</option>
+                            </select>
                         </div>
                     </div>
-                    <div class="date">
+                    <div class="select-block">
                         <div class="aft-non">
                             <p>Par value</p>
-                            <input class="inp-date" type="text">
+                            <input class="inp-sel" type="text">
                         </div>
                         <div class="aft-non">
                             <p># Shares of this class</p>
-                            <input class="inp-date" type="text">
+                            <input class="inp-sel" type="text">
                         </div>
                     </div>
                     <div class="bnt-navigation">
@@ -491,14 +526,28 @@
                         <span class="title-input">Is a bank account required?</span>
                         <input type="text">
                     </label>
-                    <div class="date">
+                    <div class="select-block">
                         <div class="aft-non">
                             <p>Your bank</p>
-                            <input class="inp-date" type="text">
+                            <select>
+                                <option value="hide"></option>
+                                <option value="2010">AED</option>
+                                <option value="2011">AUD</option>
+                                <option value="2012">BCH</option>
+                                <option value="2013">BRL</option>
+                                <option value="2014">BTC</option>
+                            </select>
                         </div>
                         <div class="aft-non">
                             <p>Currency</p>
-                            <input class="inp-date" type="text">
+                            <select>
+                                <option value="hide"></option>
+                                <option value="2010">AED</option>
+                                <option value="2011">AUD</option>
+                                <option value="2012">BCH</option>
+                                <option value="2013">BRL</option>
+                                <option value="2014">BTC</option>
+                            </select>
                         </div>
                     </div>
                     <label class="input-text">
@@ -532,10 +581,19 @@
                     <span class="title-input">If any</span>
                     <input type="text">
                 </label>
-                <label class="input-text">
-                    <span class="title-input">Document</span>
-                    <input type="text">
-                </label>
+                <div class="select-block max-sel">
+                    <div class="aft-non">
+                        <p>Document</p>
+                        <select>
+                            <option value="hide"></option>
+                            <option value="2010">AED</option>
+                            <option value="2011">AUD</option>
+                            <option value="2012">BCH</option>
+                            <option value="2013">BRL</option>
+                            <option value="2014">BTC</option>
+                        </select>
+                    </div>
+                </div>
                 <div class="block-file">
                     Choose file
                     <input class="input-file" type="file">

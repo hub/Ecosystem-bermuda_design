@@ -33,13 +33,13 @@
                     <li>
                         <a class="item-li" href="#">
                             <p>Home</p>
-                            <span class="icon-VectorSmartObjec-1"></span>
+                            <span class="icon-VectorSmartObjec-4"></span>
                         </a>
                     </li>
                     <li>
                         <a class="item-li" href="#">
                             <p>Membership</p>
-                            <span class="icon-VectorSmartObjec-2"></span>
+                            <span class="icon-VectorSmartObjec-1"></span>
                         </a>
                     </li>
                     <li>
@@ -51,7 +51,7 @@
                     <li>
                         <a class="item-li" href="#">
                             <p>About</p>
-                            <span class="icon-VectorSmartObjec-1"></span>
+                            <span class="icon-VectorSmartObjec-5"></span>
                         </a>
                     </li>
                     <li>
@@ -63,36 +63,36 @@
                     <li>
                         <a class="item-li" href="#">
                             <p>Sprint</p>
-                            <span class="icon-VectorSmartObjec-3"></span>
+                            <span class="icon-VectorSmartObjec-8"></span>
                         </a>
                     </li>
                     <li>
                         <a class="item-li" href="#">
                             <p>Profile</p>
-                            <span class="icon-VectorSmartObjec-3"></span>
+                            <span class="icon-VectorSmartObjec-10"></span>
                         </a>
                     </li>
                     <li>
                         <a class="item-li" href="#">
                             <p>Applications</p>
-                            <span class="icon-VectorSmartObjec-1"></span>
+                            <span class="icon-VectorSmartObjec-3"></span>
                         </a>
                     </li>
                     <li>
                         <a class="item-li" href="#">
                             <p>Library of Contract T & C</p>
-                            <span class="icon-VectorSmartObjec-2"></span>
+                            <span class="icon-VectorSmartObjec-9"></span>
                         </a>
                     </li>
                     <li>
                         <a class="item-li" href="#">
                             <p>Log Out</p>
-                            <span class="icon-VectorSmartObjec-3"></span>
+                            <span class="icon-VectorSmartObjec-7"></span>
                         </a>
                     </li>
                 </ul>
             </div>
-            <div class="content">
+            <div class="global-content">
               @yield('content')
             </div>
         </div>

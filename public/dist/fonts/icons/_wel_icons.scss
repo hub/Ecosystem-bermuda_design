@@ -30,11 +30,32 @@
 	@if $filename == VectorSmartObjec-1 {
 		$char: "\E001";
 	}
-	@if $filename == VectorSmartObjec-2 {
+	@if $filename == VectorSmartObjec-10 {
 		$char: "\E002";
 	}
-	@if $filename == VectorSmartObjec-3 {
+	@if $filename == VectorSmartObjec-2 {
 		$char: "\E003";
+	}
+	@if $filename == VectorSmartObjec-3 {
+		$char: "\E004";
+	}
+	@if $filename == VectorSmartObjec-4 {
+		$char: "\E005";
+	}
+	@if $filename == VectorSmartObjec-5 {
+		$char: "\E006";
+	}
+	@if $filename == VectorSmartObjec-6 {
+		$char: "\E007";
+	}
+	@if $filename == VectorSmartObjec-7 {
+		$char: "\E008";
+	}
+	@if $filename == VectorSmartObjec-8 {
+		$char: "\E009";
+	}
+	@if $filename == VectorSmartObjec-9 {
+		$char: "\E00A";
 	}
 
 	@return $char;
@@ -54,9 +75,30 @@
 .icon-VectorSmartObjec-1 {
 	@include icon(VectorSmartObjec-1);
 }
+.icon-VectorSmartObjec-10 {
+	@include icon(VectorSmartObjec-10);
+}
 .icon-VectorSmartObjec-2 {
 	@include icon(VectorSmartObjec-2);
 }
 .icon-VectorSmartObjec-3 {
 	@include icon(VectorSmartObjec-3);
+}
+.icon-VectorSmartObjec-4 {
+	@include icon(VectorSmartObjec-4);
+}
+.icon-VectorSmartObjec-5 {
+	@include icon(VectorSmartObjec-5);
+}
+.icon-VectorSmartObjec-6 {
+	@include icon(VectorSmartObjec-6);
+}
+.icon-VectorSmartObjec-7 {
+	@include icon(VectorSmartObjec-7);
+}
+.icon-VectorSmartObjec-8 {
+	@include icon(VectorSmartObjec-8);
+}
+.icon-VectorSmartObjec-9 {
+	@include icon(VectorSmartObjec-9);
 }
