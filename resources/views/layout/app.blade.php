@@ -12,23 +12,24 @@
     <link rel="stylesheet" href="./public/dist/font/font.css">
 </head>
     <body>
-        
-        <header>
-            <div class="background-header">
-                <div class="header-box">
-                    <p class="title">BERMUDA STANDARD</p>
-                    <div class="user-box">
-                        <div class="user-img"></div>
-                        <div class="name-user">
-                            <p>John Dou</p>
-                            <p>Company Owner</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <div class="dashboard-box">
+        <div class="container">
             <div class="sidebar">
+                <div class="title">
+                    <p>BERMUDA STANDARD</p>
+                    <nav role="navigation" class="nav-resp">
+                        <div id="menuToggle">
+                            <input type="checkbox">
+                            
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            
+                            <ul id="menu">
+                                
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
                 <ul class="menu">
                     <li>
                         <a class="item-li" href="#">
@@ -92,10 +93,28 @@
                     </li>
                 </ul>
             </div>
-            <div class="global-content">
-              @yield('content')
+            <div class="width-box">
+                <header>
+                    <div class="background-header">
+                        <div class="header-box">
+                            <div class="user-box">
+                                <div class="user-img"></div>
+                                <div class="name-user">
+                                    <p>John Dou</p>
+                                    <p>Company Owner</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <div class="dashboard-box">
+                    <div class="global-content">
+                        @yield('content')
+                    </div>
+                </div>
             </div>
         </div>
+       
 
 
         <script src="./public/dist/js/jquery.min.js"></script>

@@ -3,7 +3,7 @@
 @section('content')
   <div class="form-two-page">
     <div class="navigation-two-page">
-        <a class="activ-page-btn" href="#">Virtual Currency Business License</a>
+        <a class="activ-page-btn" href="#">Digital Asset License</a>
         <a href="#">ICO Project License</a>
     </div>
     <div class="forms-page-one">

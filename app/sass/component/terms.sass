@@ -147,10 +147,6 @@
     .search
         max-width: 160px
 
-
-
-
-
 .pagin-page 
     width: 100%
     display: flex
@@ -162,3 +158,55 @@
     p 
         font-size: 14px
         color: #333333
+
+.table
+    width: 100%
+    border: 1px solid #ededed
+    border-radius: 8px
+    margin-top: 25px
+    .line-tabs, .line-tabs-title
+        display: flex
+        align-items: center
+        justify-content: space-between
+        padding: 20px 15px
+        box-sizing: border-box
+        border-radius: 8px
+        cursor: pointer
+    .line-tabs:hover 
+            background: #ebf0f7
+    .tab-checkbox
+        width: 62px
+        display: flex
+        align-items: center
+    .tab-number
+        width: 80px
+        display: flex
+        align-items: center
+        font-size: 14px
+        color: #333333
+        justify-content: center
+    .tab-img
+        width: 120px
+        img 
+            margin: 0 auto
+            display: block
+    .tab-text
+        max-width: 410px
+        width: 100%
+        font-size: 14px
+        color: #333333
+    
+    .line-tabs-title div
+        font-size: 14px
+        font-weight: bold
+        color: #333333
+        font-family: "AvenirLTStd-Roman"
+
+.active-line
+    background: #5b87cc
+
+.active-color
+    color: #fff !important
+
+.left-padding
+    transform: translateX(124px)

@@ -43,8 +43,8 @@ html
 
 
 body 
-  overflow: hidden
   font-family: "AvenirLTStd-Medium"
+  overflow-x: hidden
 
 
 a 
@@ -60,27 +60,21 @@ a
 
 .background-header
   background: #4b73b3
+  position: fixed
+  max-width: 1920px
+  width: 100%
+  z-index: 99
   .header-box
     max-width: 1920px
     width: 100%
     margin: 0 auto
     @extend .flex-box
-    .title
-      max-width: 250px
-      width: 100%
-      padding: 25px 60px 25px 70px
-      box-sizing: border-box
-      font-size: 20px
-      color: #fff
-      text-transform: uppercase
-      font-weight: bold
-      background: #3c5c90
-      text-align: center
+    justify-content: flex-end
+    padding: 22px 20px
     .user-box
       max-width: 150px
       width: 100%
       @extend .flex-box
-      margin-right: 20px
       font-size: 14px
       color: #fff
       .user-img
@@ -97,18 +91,36 @@ a
           font-weight: bold
           text-transform: uppercase
 
-.dashboard-box
-  max-width: 1920px
-  width: 100%
-  background: #ebf0f7
+.container
   display: flex
-  .sidebar
+
+.width-box
+  width: 100%
+
+.sidebar
     max-width: 250px
     width: 100%
-    height: calc(100vh - 100px)
-    border-right: 1px solid #dfdfdf
-    padding: 0px 15px
     box-sizing: border-box
+    position: fixed
+    top: 0
+    bottom: 0
+    left: 0
+    width: 250px
+    height: 100vh
+    background: #ebf0f7
+    border-right: 1px solid #dfdfdf
+    z-index: 999
+    left: -190px
+    transition: all .5s
+    .title
+      background: #3c5c90
+      padding: 15px
+      p 
+        text-transform: uppercase
+        font-size: 20px
+        color: #fff
+        width: 110px
+        text-align: center
     .item-li
       display: flex
       align-items: center
@@ -116,28 +128,38 @@ a
       color: #333333
       justify-content: space-between
       span 
-        font-size: 12px
+        font-size: 14px
         width: 20px
     .menu 
+      padding: 0 20px 
+      box-sizing: border-box
       li 
         margin-top: 40px
+
+.dashboard-box
+  max-width: 1920px
+  width: 100%
+  background: #ebf0f7
+  display: flex
+  min-height: 100vh
   .global-content
     max-width: 1660px
     width: 100%
-    overflow-y: scroll
-    height: calc(100vh - 100px)
-    padding: 40px 0px
     box-sizing: border-box
+    margin: 0 auto
+    margin-top: 130px
+    padding-bottom: 50px
     .add-profile-box
       max-width: 1090px
       width: 100%
       margin: 0 auto
       @extend .flex-box
+      transition: all .5s
       flex-wrap: wrap
       .box-profile
         position: relative
         width: 290px
-        height: 165px
+        height: 200px
         @extend .flex-box
         flex-direction: column
         padding: 10px 25px
@@ -186,6 +208,8 @@ a
           color: #4a73b3
           text-align: center
 
+.add-profile-box
+  transform: translateX(30px)
 
 // checked-controls
 .welkit-choice 
@@ -264,6 +288,109 @@ a
  background: #4b73b3
  color: #fff
  padding: 3px
+
+//burger
+#menuToggle
+  position: absolute
+  top: 30px
+  right: 15px
+  z-index: 1
+  -webkit-user-select: none
+  user-select: none
+
+#menuToggle input
+  display: block
+  width: 40px
+  height: 32px
+  position: absolute
+  top: -7px
+  left: -5px
+  cursor: pointer
+  opacity: 0 
+  z-index: 2 
+  -webkit-touch-callout: none
+
+#menuToggle span
+  display: block
+  width: 33px
+  height: 4px
+  margin-bottom: 5px
+  position: relative
+  background: #fff
+  border-radius: 3px
+  z-index: 1
+  transform-origin: 4px 0px
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+  background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+  opacity 0.55s ease
+
+#menuToggle span:first-child
+  transform-origin: 0% 0%
+
+#menuToggle span:nth-last-child(2)
+  transform-origin: 0% 100%
+
+#menuToggle input:checked ~ span
+  opacity: 1
+  transform: rotate(45deg) translate(-2px, -1px)
+  background: #fff
+
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+  opacity: 0
+  transform: rotate(0deg) scale(0.2, 0.2)
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+  opacity: 1
+  transform: rotate(-45deg) translate(0, -1px)
+
+#menu
+  display: none
+  height: 100vh
+  position: fixed
+  max-width: 960px
+  text-align: left
+  padding-left: 40px
+  box-sizing: border-box
+  width: 100%
+  top: 0
+  left: 0
+  padding-top: 125px
+  right: -100px
+  background: #00003c
+  list-style-type: none
+  -webkit-font-smoothing: antialiased
+  transform-origin: 0% 0%
+  transform: translate(100%, 0)
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0)
+  li 
+    a 
+      color: #fff
+      font-size: 1.125rem
+      font-weight: bold
+    img 
+      height: 48px
+  p 
+    letter-spacing: 2.2px
+    text-align: center
+    color: #ffffff
+    font-size: 22px
+    text-transform: uppercase
+    font-weight: bold
+    position: absolute
+    right: 0
+    left: 0
+    margin: 0 auto
+    top: 20px
+
+
+#menu li
+  padding: 10px 0
+  font-size: 22px
+
+#menuToggle input:checked ~ ul
+  transform: scale(1.0, 1.0)
+  opacity: 1
  
 
 @import "component/applications.sass"
