@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="form-two-page">
-    <div class="navigation-two-page">
+    <div class="navigation-two-page link-colum">
         <a class="activ-page-btn" href="#">Terms Submission</a>
         <a href="#">Library of Terms & Conditions</a>
         <a href="#">Submitted Terms</a>

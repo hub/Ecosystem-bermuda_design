@@ -132,7 +132,7 @@ $(document).ready(function(){
     }
 
     function menuShow() {
-        $(".sidebar").animate({left: '0'}, 0);
+        $(".sidebar").addClass('slide')
         $('.form-two-page').addClass('left-padding')
         $('.add-profile-box').addClass('left-padding')
         visible = true;
@@ -140,13 +140,30 @@ $(document).ready(function(){
     }
 
     function nenuHide() {
-        $(".sidebar").animate({left: '-190px'}, 0);
+        $(".sidebar").removeClass('slide')
         $('.form-two-page').removeClass('left-padding')
         $('.add-profile-box').removeClass('left-padding')
         visible = false;
         return;
     }
 
+
+
+    //input file  
+
+    $('.chooseFile').each(function(index, item) {
+        $(item).bind('change', function () {
+            var filename = $(item).val();
+            if (/^\s*$/.test(filename)) {
+              $(".noFile").text("No file chosen..."); 
+            }
+            else {
+              $(item).parent().find(".file-select-name").text(filename.replace("C:\\fakepath\\", "")); 
+            }
+        });
+    })
+      
+      
 
 
 

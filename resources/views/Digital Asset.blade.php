@@ -24,11 +24,15 @@
             </label>
             
             <div class="block-file">
-                Choose file
-                <input class="input-file" type="file">
-                <span class="add-file-icn">
-                    <img src="/public/dist/img/VectorSmartObjec-3.svg" alt="">
-                </span>
+                <div class="file-upload">
+                    <div class="file-select">
+                        <div class="file-select-name">Choose file</div> 
+                        <input type="file" name="chooseFile" class="chooseFile">
+                        <span class="add-file-icn">
+                            <img src="/public/dist/img/VectorSmartObjec-3.svg" alt="">
+                        </span>
+                    </div>
+                </div>
             </div>
             
             <div class="form-line-border"></div>
@@ -38,11 +42,15 @@
             </label>
             
             <div class="block-file">
-                Choose file
-                <input class="input-file" type="file">
-                <span class="add-file-icn">
-                    <img src="/public/dist/img/VectorSmartObjec-3.svg" alt="">
-                </span>
+                <div class="file-upload">
+                    <div class="file-select">
+                        <div class="file-select-name">Choose file</div> 
+                        <input type="file" name="chooseFile" class="chooseFile">
+                        <span class="add-file-icn">
+                            <img src="/public/dist/img/VectorSmartObjec-3.svg" alt="">
+                        </span>
+                    </div>
+                </div>
             </div>
             
             <div class="form-line-border"></div>
@@ -52,11 +60,15 @@
             </label>
             
             <div class="block-file">
-                Choose file
-                <input class="input-file" type="file">
-                <span class="add-file-icn">
-                    <img src="/public/dist/img/VectorSmartObjec-3.svg" alt="">
-                </span>
+                <div class="file-upload">
+                    <div class="file-select">
+                        <div class="file-select-name">Choose file</div> 
+                        <input type="file" name="chooseFile" class="chooseFile">
+                        <span class="add-file-icn">
+                            <img src="/public/dist/img/VectorSmartObjec-3.svg" alt="">
+                        </span>
+                    </div>
+                </div>
             </div>
             
             <div class="form-line-border"></div>
@@ -81,11 +93,15 @@
             </div>
             <div class="form-line-border"></div>
             <div class="block-file">
-                Choose file
-                <input class="input-file" type="file">
-                <span class="add-file-icn">
-                    <img src="/public/dist/img/VectorSmartObjec-3.svg" alt="">
-                </span>
+                <div class="file-upload">
+                    <div class="file-select">
+                        <div class="file-select-name">Choose file</div> 
+                        <input type="file" name="chooseFile" class="chooseFile">
+                        <span class="add-file-icn">
+                            <img src="/public/dist/img/VectorSmartObjec-3.svg" alt="">
+                        </span>
+                    </div>
+                </div>
             </div>
             <div class="button-box">
                 <input class="btn-submit btn-submit-input" type="submit" value=" Submit ">

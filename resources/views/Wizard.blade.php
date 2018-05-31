@@ -7,13 +7,13 @@
         <section>
             <div class="form-two-page">
                 <div class="step-navigation">
-                    <a class="active-step" href="#">Step 1</a>
-                    <a href="#">Step 2</a>
-                    <a href="#">Step 3</a>
-                    <a href="#">Step 4</a>
-                    <a href="#">Step 5</a>
-                    <a href="#">Step 6</a>
-                    <a href="#">Step 7</a>
+                    <a class="active-step" href="#"><p><span>Step</span> 1</p></a>
+                    <a href="#"><p><span>Step</span> 2</p></a>
+                    <a href="#"><p><span>Step</span> 3</p></a>
+                    <a href="#"><p><span>Step</span> 4</p></a>
+                    <a href="#"><p><span>Step</span> 5</p></a>
+                    <a href="#"><p><span>Step</span> 6</p></a>
+                    <a href="#"><p><span>Step</span> 7</p></a>
                 </div>
                 <div class="forms-page-one">
                     <p class="title-step">Step 1: The Proposed Company</p>
@@ -65,8 +65,8 @@
                             <span class="hint-input">* Required field</span>
                         </div>
                     </div>
-                    <div class="bnt-navigation">
-                        <a class="previous" href="#"><img src="/public/dist/img/arrow-left.svg" alt=""> PREVIOUS</a>
+                    <div class="bnt-navigation one-btn">
+                        
                         <a class="next" href="#">NEXT <img src="/public/dist/img/arrow-right.svg" alt=""></a>
                     </div>
                 </div>
@@ -78,13 +78,13 @@
         <section>
             <div class="form-two-page">
                 <div class="step-navigation">
-                    <a href="#">Step 1</a>
-                    <a class="active-step" href="#">Step 2</a>
-                    <a href="#">Step 3</a>
-                    <a href="#">Step 4</a>
-                    <a href="#">Step 5</a>
-                    <a href="#">Step 6</a>
-                    <a href="#">Step 7</a>
+                    <a href="#"><p><span>Step</span> 1</p></a>
+                    <a class="active-step" href="#"><p><span>Step</span> 2</p></a>
+                    <a href="#"><p><span>Step</span> 3</p></a>
+                    <a href="#"><p><span>Step</span> 4</p></a>
+                    <a href="#"><p><span>Step</span> 5</p></a>
+                    <a href="#"><p><span>Step</span> 6</p></a>
+                    <a href="#"><p><span>Step</span> 7</p></a>
                 </div>
                 <div class="forms-page-one">
                     <p class="title-step">Step 2: Ownership Structure of the Proposed Company</p>
@@ -289,13 +289,13 @@
         <section>
             <div class="form-two-page">
                 <div class="step-navigation">
-                    <a href="#">Step 1</a>
-                    <a href="#">Step 2</a>
-                    <a class="active-step" href="#">Step 3</a>
-                    <a href="#">Step 4</a>
-                    <a href="#">Step 5</a>
-                    <a href="#">Step 6</a>
-                    <a href="#">Step 7</a>
+                    <a href="#"><p><span>Step</span> 1</p></a>
+                    <a href="#"><p><span>Step</span> 2</p></a>
+                    <a class="active-step" href="#"><p><span>Step</span> 3</p></a>
+                    <a href="#"><p><span>Step</span> 4</p></a>
+                    <a href="#"><p><span>Step</span> 5</p></a>
+                    <a href="#"><p><span>Step</span> 6</p></a>
+                    <a href="#"><p><span>Step</span> 7</p></a>
                 </div>
                 <div class="forms-page-one">
                     <p class="title-step">Step 3: Shares and Capital</p>
@@ -434,13 +434,13 @@
         <section>
             <div class="form-two-page">
                 <div class="step-navigation">
-                    <a href="#">Step 1</a>
-                    <a href="#">Step 2</a>
-                    <a href="#">Step 3</a>
-                    <a class="active-step" href="#">Step 4</a>
-                    <a href="#">Step 5</a>
-                    <a href="#">Step 6</a>
-                    <a href="#">Step 7</a>
+                    <a href="#"><p><span>Step</span> 1</p></a>
+                    <a href="#"><p><span>Step</span> 2</p></a>
+                    <a href="#"><p><span>Step</span> 3</p></a>
+                    <a class="active-step" href="#"><p><span>Step</span> 4</p></a>
+                    <a href="#"><p><span>Step</span> 5</p></a>
+                    <a href="#"><p><span>Step</span> 6</p></a>
+                    <a href="#"><p><span>Step</span> 7</p></a>
                 </div>
                 <div class="forms-page-one">
                     <p class="title-step">Step 4: Personnel</p>
@@ -504,13 +504,13 @@
         <section>
             <div class="form-two-page">
                 <div class="step-navigation">
-                    <a href="#">Step 1</a>
-                    <a href="#">Step 2</a>
-                    <a href="#">Step 3</a>
-                    <a href="#">Step 4</a>
-                    <a class="active-step" href="#">Step 5</a>
-                    <a href="#">Step 6</a>
-                    <a href="#">Step 7</a>
+                    <a href="#"><p><span>Step</span> 1</p></a>
+                    <a href="#"><p><span>Step</span> 2</p></a>
+                    <a href="#"><p><span>Step</span> 3</p></a>
+                    <a href="#"><p><span>Step</span> 4</p></a>
+                    <a class="active-step" href="#"><p><span>Step</span> 5</p></a>
+                    <a href="#"><p><span>Step</span> 6</p></a>
+                    <a href="#"><p><span>Step</span> 7</p></a>
                 </div>
                 <div class="forms-page-one">
                     <p class="title-step">Step 5: Financial Matters</p>
@@ -567,13 +567,13 @@
         <section>
             <div class="form-two-page">
                 <div class="step-navigation">
-                    <a href="#">Step 1</a>
-                    <a href="#">Step 2</a>
-                    <a href="#">Step 3</a>
-                    <a href="#">Step 4</a>
-                    <a href="#">Step 5</a>
-                    <a class="active-step" href="#">Step 6</a>
-                    <a href="#">Step 7</a>
+                    <a href="#"><p><span>Step</span> 1</p></a>
+                    <a href="#"><p><span>Step</span> 2</p></a>
+                    <a href="#"><p><span>Step</span> 3</p></a>
+                    <a href="#"><p><span>Step</span> 4</p></a>
+                    <a href="#"><p><span>Step</span> 5</p></a>
+                    <a class="active-step" href="#"><p><span>Step</span> 6</p></a>
+                    <a href="#"><p><span>Step</span> 7</p></a>
                 </div>
                 <div class="forms-page-one">
                 <p class="title-step">Step 6: Special Provisions for Bye-Laws (or organizational resolutions)</p>
@@ -595,11 +595,15 @@
                     </div>
                 </div>
                 <div class="block-file">
-                    Choose file
-                    <input class="input-file" type="file">
-                    <span class="add-file-icn">
-                        <img src="/public/dist/img/VectorSmartObjec-3.svg" alt="">
-                    </span>
+                    <div class="file-upload">
+                        <div class="file-select">
+                            <div class="file-select-name">Choose file</div> 
+                            <input type="file" name="chooseFile" class="chooseFile">
+                            <span class="add-file-icn">
+                                <img src="/public/dist/img/VectorSmartObjec-3.svg" alt="">
+                            </span>
+                        </div>
+                    </div>
                 </div>
                 <button class="btn-upload">UPLOAD MORE</button>
                 <div class="bnt-navigation">
@@ -614,13 +618,13 @@
         <section>
             <div class="form-two-page">
                 <div class="step-navigation">
-                    <a href="#">Step 1</a>
-                    <a href="#">Step 2</a>
-                    <a href="#">Step 3</a>
-                    <a href="#">Step 4</a>
-                    <a href="#">Step 5</a>
-                    <a href="#">Step 6</a>
-                    <a class="active-step" href="#">Step 7</a>
+                    <a href="#"><p><span>Step</span> 1</p></a>
+                    <a href="#"><p><span>Step</span> 2</p></a>
+                    <a href="#"><p><span>Step</span> 3</p></a>
+                    <a href="#"><p><span>Step</span> 4</p></a>
+                    <a href="#"><p><span>Step</span> 5</p></a>
+                    <a href="#"><p><span>Step</span> 6</p></a>
+                    <a class="active-step" href="#"><p><span>Step</span> 7</p></a>
                 </div>
                 <div class="forms-page-one">
                 <p class="title-step">Step 7: Applicant’s Particulars</p>

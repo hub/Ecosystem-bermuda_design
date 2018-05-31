@@ -3,7 +3,7 @@
 @section('content')
     <div class="form-two-page">
         <div class="navigation-two-page">
-            <a href="#">Virtual Currency Business License</a>
+            <a href="#">Digital Asset License</a>
             <a class="activ-page-btn" href="#">ICO Project License</a>
         </div>
         <div class="forms-page-one">
@@ -84,11 +84,15 @@
                 </label>
                 
                 <div class="block-file">
-                    Choose file
-                    <input class="input-file" type="file">
-                    <span class="add-file-icn">
-                        <img src="/public/dist/img/VectorSmartObjec-3.svg" alt="">
-                    </span>
+                    <div class="file-upload">
+                        <div class="file-select">
+                            <div class="file-select-name">Choose file</div> 
+                            <input type="file" name="chooseFile" class="chooseFile">
+                            <span class="add-file-icn">
+                                <img src="/public/dist/img/VectorSmartObjec-3.svg" alt="">
+                            </span>
+                        </div>
+                    </div>
                 </div>
                 <div class="form-line-border"></div>
                 <label class="input-text">
@@ -98,11 +102,15 @@
                 </label>
                 <p class="text-inp-one">Certificate signed by an attorney [or an officer of the company] certifying that the ICO offer document contains the particulars required</p>
                 <div class="block-file">
-                    Choose file
-                    <input class="input-file" type="file">
-                    <span class="add-file-icn">
-                        <img src="/public/dist/img/VectorSmartObjec-3.svg" alt="">
-                    </span>
+                    <div class="file-upload">
+                        <div class="file-select">
+                            <div class="file-select-name">Choose file</div> 
+                            <input type="file" name="chooseFile" class="chooseFile">
+                            <span class="add-file-icn">
+                                <img src="/public/dist/img/VectorSmartObjec-3.svg" alt="">
+                            </span>
+                        </div>
+                    </div>
                 </div>
                 <div class="form-line-border"></div>
                 <label class="input-text">
@@ -111,11 +119,15 @@
                 </label>
                 
                 <div class="block-file">
-                    Choose file
-                    <input class="input-file" type="file">
-                    <span class="add-file-icn">
-                        <img src="/public/dist/img/VectorSmartObjec-3.svg" alt="">
-                    </span>
+                    <div class="file-upload">
+                        <div class="file-select">
+                            <div class="file-select-name">Choose file</div> 
+                            <input type="file" name="chooseFile" class="chooseFile">
+                            <span class="add-file-icn">
+                                <img src="/public/dist/img/VectorSmartObjec-3.svg" alt="">
+                            </span>
+                        </div>
+                    </div>
                 </div>
                 <div class="button-box">
                     <input class="btn-submit btn-submit-input" type="submit" value=" Submit ">
