@@ -14,7 +14,7 @@
             <img src="public/dist/img/Object.png" alt="">
             <input class="search-btn" type="submit" value="search">
             <div class="select-block mini-sel">
-                <select id="select" onchange="myFunction()"> 
+                <select> 
                     <option value="hide"></option>
                     <option value="General Terms & Conditions">General Terms & Conditions</option>
                     <option value="Terms & Conditions of Sale">Terms & Conditions of Sale</option>

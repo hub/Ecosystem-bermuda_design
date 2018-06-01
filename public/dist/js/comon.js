@@ -79,8 +79,7 @@ $(document).ready(function(){
         $styledSelect.text($this.children('option').eq(0).text());
     
         var $list = $('<ul />', {
-            'class': 'select-options',
-            'id': 'selValue'
+            'class': 'select-options'
         }).insertAfter($styledSelect);
     
         for (var i = 0; i < numberOfOptions; i++) {
@@ -112,7 +111,25 @@ $(document).ready(function(){
             $styledSelect.removeClass('active');
             $list.hide();
         });
+
     });
+
+    // $('.select-options li').on('click', function() {
+    //     selectVal();
+    // })
+
+
+
+    // function selectVal() {
+    //     var val = $('.select-styled').html();
+    //     $('#submit').val() = val;
+    // }
+
+    // console.log($('#submit').val());
+    
+    
+
+
 
     //mune 
 
@@ -188,10 +205,4 @@ $(document).ready(function(){
     });
       
 });
-
-
-function myFunction() {
-    var x = document.getElementById("selValue").value;
-    document.getElementById("submit").value = x;
-}
 
