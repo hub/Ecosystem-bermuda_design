@@ -20,7 +20,7 @@
                     <option value="Terms & Conditions of Sale">Terms & Conditions of Sale</option>
                     <option value="Terms & Conditions of Service">Terms & Conditions of Service</option>
                     <option value="Terms & Conditions of Use">Terms & Conditions of Use</option>
-                </select>
+                </select> 
             </div>
         </div>
         <p class="title-search">Results: All categories</p>
