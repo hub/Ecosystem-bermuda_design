@@ -73,18 +73,35 @@
                             <span class="icon-VectorSmartObjec-10"></span>
                         </a>
                     </li>
-                    <li>
-                        <a class="item-li" href="#">
-                            <p>Applications</p>
-                            <span class="icon-VectorSmartObjec-3"></span>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="item-li" href="#">
-                            <p>Library of Contract T&C</p>
-                            <span class="icon-VectorSmartObjec-9"></span>
-                        </a>
-                    </li>
+                    <div class="div">
+                        <li>
+                            <div class="item-li">
+                                <p>Applications</p>
+                                <div class="drop-arrow">
+                                    <span class="icon-arrow-down arrow-lnk"></span>
+                                    <span class="icon-VectorSmartObjec-3"></span>
+                                </div>
+                            </div>
+                            <ul class="drop-menu">
+                                <li><a href="#">Digital Asset License</a></li>
+                                <li><a href="#">ICO Project License</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="item-li">
+                                <p>Library of Contract T&C</p>
+                                <div class="drop-arrow">
+                                    <span class="icon-arrow-down arrow-lnk"></span>
+                                    <span class="icon-VectorSmartObjec-9"></span>
+                                </div>
+                            </div>
+                            <ul class="drop-menu">  
+                                <li><a href="#">Terms Submission</a></li>
+                                <li><a href="#">Library of Terms</a></li>
+                                <li><a href="#">Submitted Terms</a></li>
+                            </ul>
+                        </li>
+                    </div>
                     <li>
                         <a class="item-li" href="#">
                             <p>Log Out</p>

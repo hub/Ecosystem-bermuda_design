@@ -10,16 +10,16 @@
     </div>
     <div class="forms-page-one">
         <div class="search">
-            <input class="input-btn" type="text">
+            <input id="submit" class="input-btn" type="text">
             <img src="public/dist/img/Object.png" alt="">
             <input class="search-btn" type="submit" value="search">
             <div class="select-block mini-sel">
-                <select>
+                <select id="select" onchange="myFunction()"> 
                     <option value="hide"></option>
-                    <option value="2010">General Terms & Conditions</option>
-                    <option value="2011">Terms & Conditions of Sale</option>
-                    <option value="2012">Terms & Conditions of Service</option>
-                    <option value="2013">Terms & Conditions of Use</option>
+                    <option value="General Terms & Conditions">General Terms & Conditions</option>
+                    <option value="Terms & Conditions of Sale">Terms & Conditions of Sale</option>
+                    <option value="Terms & Conditions of Service">Terms & Conditions of Service</option>
+                    <option value="Terms & Conditions of Use">Terms & Conditions of Use</option>
                 </select>
             </div>
         </div>

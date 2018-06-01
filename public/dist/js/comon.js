@@ -79,7 +79,8 @@ $(document).ready(function(){
         $styledSelect.text($this.children('option').eq(0).text());
     
         var $list = $('<ul />', {
-            'class': 'select-options'
+            'class': 'select-options',
+            'id': 'selValue'
         }).insertAfter($styledSelect);
     
         for (var i = 0; i < numberOfOptions; i++) {
@@ -112,7 +113,6 @@ $(document).ready(function(){
             $list.hide();
         });
     });
-
 
     //mune 
 
@@ -162,10 +162,36 @@ $(document).ready(function(){
             }
         });
     })
+
+
+
+    //accordion
+
+    function accordion(el){
+        var currentEl = null;
+        el.find(".item-li").click(function(){
+           
+            if(currentEl) {
+                $(currentEl).find('.arrow-lnk').removeClass('rotate');
+            }
+            $(this).next(".drop-menu").slideToggle('fast');
+            $(".drop-menu").not($(this).next(".drop-menu")).slideUp('fast');
+            if(currentEl && currentEl === this) {
+                return;
+            }
+            $(this).find('.arrow-lnk').addClass('rotate');
+            currentEl = this;
+        });
+    }
+    $(document).ready(function(){
+        accordion($(".div"));
+    });
       
-      
-
-
-
-
 });
+
+
+function myFunction() {
+    var x = document.getElementById("selValue").value;
+    document.getElementById("submit").value = x;
+}
+
