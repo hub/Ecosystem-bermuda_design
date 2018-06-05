@@ -57,6 +57,9 @@
 	@if $filename == VectorSmartObjec-9 {
 		$char: "\E00A";
 	}
+	@if $filename == arrow-down {
+		$char: "\E00B";
+	}
 
 	@return $char;
 }
@@ -101,4 +104,7 @@
 }
 .icon-VectorSmartObjec-9 {
 	@include icon(VectorSmartObjec-9);
+}
+.icon-arrow-down {
+	@include icon(arrow-down);
 }
