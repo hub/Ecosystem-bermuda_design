@@ -32,43 +32,43 @@
                 </div>
                 <ul class="menu">
                     <li>
-                        <a class="item-li" href="#">
+                        <a class="item-li" href="#" title="Home">
                             <p>Home</p>
                             <span class="icon-VectorSmartObjec-4"></span>
                         </a>
                     </li>
                     <li>
-                        <a class="item-li" href="#">
+                        <a class="item-li" href="#" title="Membership">
                             <p>Membership</p>
                             <span class="icon-VectorSmartObjec-1"></span>
                         </a>
                     </li>
                     <li>
-                        <a class="item-li" href="#">
+                        <a class="item-li" href="#" title="Markets">
                             <p>Markets</p>
                             <span class="icon-VectorSmartObjec-3"></span>
                         </a>
                     </li>
                     <li>
-                        <a class="item-li" href="#">
+                        <a class="item-li" href="#" title="About">
                             <p>About</p>
                             <span class="icon-VectorSmartObjec-5"></span>
                         </a>
                     </li>
                     <li>
-                        <a class="item-li" href="#">
+                        <a class="item-li" href="#" title="Contact">
                             <p>Contact</p>
                             <span class="icon-VectorSmartObjec-2"></span>
                         </a>
                     </li>
                     <li>
-                        <a class="item-li" href="#">
+                        <a class="item-li" href="#" title="Sprint">
                             <p>Sprint</p>
                             <span class="icon-VectorSmartObjec-8"></span>
                         </a>
                     </li>
                     <li>
-                        <a class="item-li" href="#">
+                        <a class="item-li" href="#" title="Profile">
                             <p>Profile</p>
                             <span class="icon-VectorSmartObjec-10"></span>
                         </a>
@@ -83,8 +83,8 @@
                                 </div>
                             </div>
                             <ul class="drop-menu">
-                                <li><a href="#">Digital Asset License</a></li>
-                                <li><a href="#">ICO Project License</a></li>
+                                <li><a href="#" title="Digital Asset License">Digital Asset License</a></li>
+                                <li><a href="#" title="ICO Project License">ICO Project License</a></li>
                             </ul>
                         </li>
                         <li>
@@ -96,14 +96,14 @@
                                 </div>
                             </div>
                             <ul class="drop-menu">  
-                                <li><a href="#">Terms Submission</a></li>
-                                <li><a href="#">Library of Terms</a></li>
-                                <li><a href="#">Submitted Terms</a></li>
+                                <li><a href="#" title="Terms Submission">Terms Submission</a></li>
+                                <li><a href="#" title="Library of Terms">Library of Terms</a></li>
+                                <li><a href="#" title="Submitted Terms">Submitted Terms</a></li>
                             </ul>
                         </li>
                     </div>
                     <li>
-                        <a class="item-li" href="#">
+                        <a class="item-li" href="#" title="Log Out">
                             <p>Log Out</p>
                             <span class="icon-VectorSmartObjec-7"></span>
                         </a>
